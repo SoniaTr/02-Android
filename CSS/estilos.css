@@ -1,6 +1,9 @@
 body{
     margin:0 auto;
 }
+a{
+    text-decoration: none;
+}
 .Inicio{
     display: block;
     letter-spacing: 1.2px;
@@ -40,12 +43,44 @@ body{
     height: 40px;
     border-bottom-color: rgb(117, 118, 116);
 }
+.navMenuI{
+    display: block;
+    font-size: 14px;
+    text-align: left;
+    float: left;
+    margin-top: 1.5em;
+    height: 40px;
+    border-bottom-color: rgb(117, 118, 116);
+}
 .divUno{
     background-image: url(../Imagenes/spotlight-stories-1024.jpg);
     widows: 840px;
     height: 560px;
     width: 100%;
     background-size: cover;
+}
+.Bolita{
+    background-color: #64ffda;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    bottom: -28px;
+    box-sizing: border-box;
+    height: 55.9896px;
+    width: 55.9896px;
+    margin-left: 70em;
+    margin-bottom: 10em;
+    margin-top: 6.5em;
+    color: black;
+    text-align: center;
+}
+.Bolita p{
+    padding-top: 1em;
+}
+.Bolita a{
+     text-decoration: none;
+     color: rgb(117, 117, 117);
 }
 .spotimg{
     padding-left: 35em;
@@ -99,61 +134,89 @@ body{
     font-family: Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 300;
-    letter-spacing: normal;
+    letter-spacing: 2px;
 }
 .parrT{
-    max-width: 400px;
+    max-width: 450px;
     text-align: left;
-    padding-left: 30em;
+    padding-left: 28em;
+    text-align: center;
 }
 .divC{
     background-color: white;
     height: 420px;
+    margin-left: 8em;
+}
+.divC a{
+    text-decoration: none;
+    color: rgb(51, 150, 0);
 }
 .partUc{
-    padding-top: 8em;
     float: left;
-    margin: 2em;
-    padding-bottom: 2em;
+    margin-bottom: 7em;
+    padding-bottom: 5em;
+    text-align: center;
 }
-.imgC{
+.imgCu{
+    padding-top: 13.8em;
+    max-width: 120px;
+    max-height: 170px;
+    padding-left: 2em;
+}
+.imgCd{
+    padding-top: 13.5em;
+    max-width: 135px;
+    max-height: 120px;
+    padding-left: 2.3em;
+}
+.imgCt{
+    padding-top: 11.3em;
     max-width: 200px;
-    max-height: 200px;
+    max-height: 150px;
+    padding-left: 2.3em;
+}
+.imgCc{
+    padding-top: 9em;
+    max-width: 300px;
+    max-height: 300px;
+    padding-left: 2.3em;
 }
 .imgCauto{
-    max-width: 360px;
-    max-height: 420px;
+    max-width: 375px;
+    max-height: 350px;
+    padding-left: 7em;
+    display: block;
 }
 .divCinco{
     background-image: url(../Imagenes/wear3-1024.png);
-    height: 480px;
-    float: inherit;
-    max-width: 1340px;
+    height: 500px;
     background-size: cover;
 }
 .divSeis{
     background-color: rgb(69, 90, 100);
     display: block;
-    background-size: auto;
     color: white;
+    height: 230px;
+    overflow-y: hidden;
 }
 .subSeis{
     font-family: Helvetica,Arial,sans-serif;
-    padding-top: 1em;
-    padding-left: 5em;
     display: block;
     letter-spacing: normal;
+    padding-left: 4.9em;
+    font-size: 2.2em;
 }
 .paSeis{
     font-family: Helvetica,Arial,sans-serif;
-    padding-left: 7.5em;
+    padding-left: 11em;
     display: block;
-    letter-spacing: normal;
-    max-width: 600px;
+    letter-spacing:1px; ;
+    max-width: 670px;
+    font-size: 16px;
 }
 .enlSeis{
      font-family: Helvetica,Arial,sans-serif;
-    padding-left: 7.5em;
+    padding-left: 11em;
     display: block;
     letter-spacing: normal;
     color: aqua;
@@ -194,16 +257,18 @@ body{
     font-family: Helvetica,Arial,sans-serif;
     text-align: left;
     font-size: 18px;
-    padding-left: 5em;
+    padding-left: 8em;
     padding-top: 3em;
 }
 .NueImagenes{
     padding-top: 2em;
-    padding-left: 5em;
+    padding-left: 7em;
 }
 .menuNueve{
     float: left;
     margin: 2em;
+    border: solid 1px;
+    border-color: rgb(117, 118, 116);
 }
 .imgUN{
     max-width: 300px;
@@ -211,8 +276,19 @@ body{
 }
 .parrUN{
     padding-top: 1em;
+    padding-bottom: 2em;
     font-size: 21px;
     max-width: 300px;
+}
+.parrUNo{
+    padding-top: 1em;
+    padding-bottom: 4em;
+    font-size: 21px;
+    max-width: 300px;
+}
+.verdeen{
+    text-decoration: none;
+    color: green;
 }
 .divDiez{
     background-color: white;
@@ -226,18 +302,22 @@ footer{
 .parrFU{
     text-align: right;
      font-family: Helvetica,Arial,sans-serif;
+    padding-right: 12px;
 }
 .logos{
     width: 40px;
     height: 40px;
+    padding-left: 10px;
 }
 .parrFD{
      text-align: left;
      font-family: Helvetica,Arial,sans-serif;
+    padding-left: 10px;
 }
 .enlacesf{
     float: left;
     margin: 1em;
+    color: rgb(117, 117, 117);
 }
 .opciones{
     float: right;
