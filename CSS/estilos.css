@@ -1,30 +1,38 @@
 body{
     margin:0 auto;
+    font-family: Roboto,sans-serif;
 }
 a{
     text-decoration: none;
 }
+.nav{
+	position: fixed;
+	z-index: 100;
+}
 .Inicio{
     display: block;
     letter-spacing: 1.2px;
-   height: 70px
+   height: 70px;
+    width: 100%;
+    position: fixed;
+	z-index: 100;
+    background-color: white;
 }
 .indU{
     float: left;
    padding-right: 38em;
 }
-
 .indD{
     float: right;
      color: rgb(117, 118, 116);
 }
 .imagIn{
     width: 174px;
-    height: 35px;
+    height: 32px;
     padding-bottom: 10px;
     padding-left: 24px;
     padding-right: 0px;
-    padding-top: 9px;
+    padding-top: 18px;
 }
 .link{
     text-decoration: none;
@@ -33,12 +41,16 @@ a{
     transition-property: border-bottom, color;
     color: rgb(117, 117, 117);
 }
+.link:hover{
+    border-bottom-color: #6AB344;
+    color: #6AB344;
+}
 .navMenu{
     display: block;
     font-size: 14px;
     text-align: left;
     float: left;
-    margin-top: 2em;
+    margin-top: 1.5em;
     margin-right: 2em;
     height: 40px;
     border-bottom-color: rgb(117, 118, 116);
@@ -55,7 +67,7 @@ a{
 .divUno{
     background-image: url(../Imagenes/spotlight-stories-1024.jpg);
     widows: 840px;
-    height: 560px;
+    height: 600px;
     width: 100%;
     background-size: cover;
 }
@@ -108,7 +120,7 @@ a{
     padding-top: 13px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
-    font-size: 13px;
+    font-size: 12px;
 }
 .divD{
     background-color: white;
@@ -137,7 +149,7 @@ a{
     letter-spacing: 2px;
 }
 .parrT{
-    max-width: 450px;
+    max-width: 510px;
     text-align: left;
     padding-left: 28em;
     text-align: center;
@@ -164,7 +176,7 @@ a{
     padding-left: 2em;
 }
 .imgCd{
-    padding-top: 13.5em;
+    padding-top: 13.2em;
     max-width: 135px;
     max-height: 120px;
     padding-left: 2.3em;
@@ -329,4 +341,215 @@ footer{
     background-color: rgb(245, 245, 245);
     overflow-x: hidden;
     overflow-y: hidden;
+}
+
+@media (min-width: 1024px) {
+    
+}
+@media (min-width: 701px) and (max-width: 1024px)  {
+    .nav{
+	    position: fixed;
+	    z-index: 100;
+    }
+    .Inicio{w
+    letter-spacing: 0.5px;
+   height: 70px;
+    width: 100%;
+    position: fixed;
+	z-index: 100;
+    background-color: white;
+    }
+    .indU{
+        float: left;
+       padding-right: 12%;
+        padding-left: 2%;
+    }
+    .imagIn{
+    width: 124px;
+    height: 22px;
+    padding-left: 20px;
+    padding-top: 20px;
+    }
+    .navMenu{
+    font-size-adjust: 12px;
+    margin-top: 1em;
+    margin-right: 1.2em;
+    }
+    .divUno{
+        widows: 700px;
+        height: 550px;
+        width: 100%;
+        background-size: cover;
+    }
+    .Bolita{
+    height: 52.9896px;
+    width: 52.9896px;
+    margin-left: 80%;
+    margin-bottom: 3em;
+    margin-top: 4.3em;
+    }
+    .spotimg{
+    padding-left: 42%;
+    width: 250px;
+    }
+    .parrU{
+    max-width: 330px;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    padding-left: 40%;
+    }
+    .botonu{
+    max-width: 120px;
+    padding-left: 50%;
+    }
+    .boton{
+    max-width: 120px;
+    text-align: cente18
+    padding-bottom: 104x;
+    padding-top: 14px;
+    font-size: 12px;
+    }
+      .divT{
+    letter-spacing: normal;
+    text-align: center;
+    }
+    .subtituloD{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: 2px;
+    }
+    .parrT{
+    max-width: 100%;
+    padding-left: 10%;
+     padding-right: 5%;
+    }
+    .divC{
+    height: 85em;
+    margin-left: 10%;
+    }
+    .partUc{
+    padding-left: 14em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    }
+    .imgCu{
+    padding-top: 1em;
+    max-width: 120px;
+    max-height: 170px;
+    padding-left: 2em;
+    }
+    .imgCd{
+    padding-top: 10px;
+    max-width: 135px;
+    max-height: 120px;
+    padding-left: 2.3em;
+    }
+    .imgCt{
+    padding-top: 10px;
+    max-width: 200px;
+    max-height: 150px;
+    padding-left: 2.3em;
+    }
+    .imgCc{
+    padding-top: 10px;
+    max-width: 300px;
+    max-height: 300px;
+    padding-left: 2.3em;
+    }
+    .imgCauto{
+    max-width: 375px;
+    max-height: 350px;
+    padding-left:10%;
+    }
+    .divCinco{
+    height: 450;
+        width: 100%;
+    }
+    .divSeis{
+    height: 230px;
+    overflow-y: hidden;
+    }
+    .subSeis{
+    letter-spacing: normal;
+    padding-left: 3.9em;
+    font-size: 2em;
+    }
+    .paSeis{
+    padding-left: 7.6em;
+    letter-spacing:1px; ;
+    max-width: 670px;
+    font-size: 16px;
+    }
+    .enlSeis{
+    padding-left: 7.5em;
+    letter-spacing: normal;
+    }
+    .divSiete{
+    display: block;
+    text-align: center;
+    }
+    .subSie{
+    padding-top: 2em;
+    font-size: 32px;
+    }
+    .parrSie{
+    max-width: 500px;
+    padding-left: 21%;
+    font-size: 14px;
+    }
+    .tituloNu{
+    text-align: left;
+    font-size: 18px;
+    padding-left: 22%;
+    padding-top: 3em;
+    }
+    .NueImagenes{
+    padding-top: 2em;
+    padding-left: 20%;
+    }
+    .menuNueve{
+    float: left;
+    margin: 5%;
+    }
+    .imgUN{
+    max-width: 80%;
+    max-height: 300px;
+    }
+    .parrUN{
+    padding-top: 1em;
+    padding-bottom: 2em;
+    font-size: 21px;
+    max-width: 300px;
+    }
+    .parrUNo{
+    padding-top: 1em;
+    padding-bottom: 4em;
+    font-size: 21px;
+    max-width: 300px;
+    }
+    .verdeen{
+    text-decoration: none;
+    color: green;
+    }
+}
+@media only screen and (max-width: 700px){
+   .navMenu{
+       font-size: 0%;
+       width: 0%;
+    }
+    .navMenuI{
+        margin-left: 10%;
+    }
+    .indU{
+        float: left;
+       padding-right: 12%;
+        padding-left: 14%;
+    }
+    .imagIn{
+    width: 118px;
+    height: 20px;
+    }
 }
